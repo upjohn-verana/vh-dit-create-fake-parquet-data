@@ -212,15 +212,6 @@ emrlabresults:
   InterpretationNarrative:
     faker: word
     dtype: object
-  ehr_id:
-    faker: word
-    dtype: object
-  deployment_id:
-    faker: word
-    dtype: object
-  pull_id:
-    faker: word
-    dtype: object
   extract_timestamp:
     faker: word
     dtype: object
@@ -421,15 +412,6 @@ emrpatients:
   PatientDefaultRefProviderLastUpdated:
     faker: word
     dtype: object
-  ehr_id:
-    faker: word
-    dtype: object
-  deployment_id:
-    faker: word
-    dtype: object
-  pull_id:
-    faker: word
-    dtype: object
   extract_timestamp:
     faker: word
     dtype: object
@@ -454,15 +436,6 @@ emrptnotes:
     faker: random_int
     dtype: int32
   InsertGUID:
-    faker: word
-    dtype: object
-  ehr_id:
-    faker: word
-    dtype: object
-  deployment_id:
-    faker: word
-    dtype: object
-  pull_id:
     faker: word
     dtype: object
   extract_timestamp:
@@ -659,15 +632,6 @@ emrvisit:
   ReconciledCCDA:
     faker: boolean
     dtype: boolean
-  ehr_id:
-    faker: word
-    dtype: object
-  deployment_id:
-    faker: word
-    dtype: object
-  pull_id:
-    faker: word
-    dtype: object
   extract_timestamp:
     faker: word
     dtype: object
@@ -827,15 +791,6 @@ emrvisitsrxmedications:
   LastModifiedEmpID:
     faker: random_int
     dtype: int32
-  ehr_id:
-    faker: word
-    dtype: object
-  deployment_id:
-    faker: word
-    dtype: object
-  pull_id:
-    faker: word
-    dtype: object
   extract_timestamp:
     faker: word
     dtype: object
