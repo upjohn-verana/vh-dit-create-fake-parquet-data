@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "aws_poc_faker_data"
+version = "0.1.0"
+description = "Create fake data for aws poc datalab"
+authors = ["Chad Upjohn <chad.upjohn@veranahealth.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Faker = "^13.3.0"
+pyarrow = "^7.0.0"
+pandas = "^1.4.1"
+PyYAML = "^6.0"
+ipython = "^8.1.0"
+s3fs = "^2022.2.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+isort = "^5.10.1"
+pdbpp = "^0.10.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+src_paths = ["src", "tests"]
+multi_line_output=3
+include_trailing_comma="True"
+force_grid_wrap=0
+use_parentheses="True"
+line_length=120
+skip=".vscode, .tox, .git"
+default_section="THIRDPARTY"
+sections="FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers -v"
+markers = ["spark",
+           "unit_test",
+]
+testpaths = "tests"
+
+[tool.black]
+line-length = 120
+exclude = '''
+/(
+  # Directories
+    \.eggs
+  | \.git
+  | \.vscode
+  | \.tox
+  | \.venv
+  | \.ropeproject
+  | build
+  | venv
+  | .*egg-info
+)/
+'''

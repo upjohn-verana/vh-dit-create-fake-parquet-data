@@ -1,0 +1,841 @@
+emrlabresults:
+  LabResultID:
+    faker: random_int
+    dtype: int32
+  IsObservationRequest:
+    faker: random_int
+    dtype: int32
+  ParentLabResultID:
+    faker: random_int
+    dtype: int32
+  PtID:
+    faker: random_int
+    dtype: int32
+  OrderedEmpID:
+    faker: random_int
+    dtype: int32
+  VisitOrderID:
+    faker: random_int
+    dtype: int32
+  PlacerOrderID:
+    faker: word
+    dtype: object
+  FillerOrderID:
+    faker: word
+    dtype: object
+  ServiceID:
+    faker: word
+    dtype: object
+  ItemDate:
+    faker: word
+    dtype: object
+  ItemName:
+    faker: word
+    dtype: object
+  ResultValue:
+    faker: word
+    dtype: object
+  ResultUnits:
+    faker: word
+    dtype: object
+  ResultRange:
+    faker: word
+    dtype: object
+  ResultFlag:
+    faker: word
+    dtype: object
+  ResultNumber:
+    faker: word
+    dtype: object
+  ResultStatus:
+    faker: word
+    dtype: object
+  ImportedOrderedDocName:
+    faker: word
+    dtype: object
+  ItemNotes:
+    faker: word
+    dtype: object
+  MDReviewed:
+    faker: random_int
+    dtype: int32
+  MDReviewedDate:
+    faker: word
+    dtype: object
+  MDReviewedEmpID:
+    faker: random_int
+    dtype: int32
+  TestEntered:
+    faker: word
+    dtype: object
+  ServiceIDType:
+    faker: word
+    dtype: object
+  RelevantInfo:
+    faker: word
+    dtype: object
+  FillerInfo:
+    faker: word
+    dtype: object
+  SpecimenSource:
+    faker: word
+    dtype: object
+  SpecimenSourceCode:
+    faker: word
+    dtype: object
+  InsertGUID:
+    faker: word
+    dtype: object
+  ImportOrderedDocID:
+    faker: word
+    dtype: object
+  ImportOrderedDocNamespace:
+    faker: word
+    dtype: object
+  ImportOrderedDocNameTypeCode:
+    faker: word
+    dtype: object
+  ImportOrderedDocIDTypeCode:
+    faker: word
+    dtype: object
+  SpecimenCollectionStart:
+    faker: word
+    dtype: object
+  SpecimenCollectionStartTimeZone:
+    faker: word
+    dtype: object
+  SpecimenCondition:
+    faker: word
+    dtype: object
+  SpecimenActionCode:
+    faker: word
+    dtype: object
+  SpecimenRejectReason:
+    faker: word
+    dtype: object
+  HL7PtID:
+    faker: word
+    dtype: object
+  HL7PtIDNameSpace:
+    faker: word
+    dtype: object
+  HL7PtIDTypeCode:
+    faker: word
+    dtype: object
+  HL7PtName:
+    faker: word
+    dtype: object
+  HL7PtDOB:
+    faker: word
+    dtype: object
+  HL7PtGender:
+    faker: word
+    dtype: object
+  HL7PtRace:
+    faker: word
+    dtype: object
+  HL7PtRaceAlt:
+    faker: word
+    dtype: object
+  ItemDateTimeZone:
+    faker: word
+    dtype: object
+  PerfOrgName:
+    faker: word
+    dtype: object
+  PerfOrgAddr:
+    faker: word
+    dtype: object
+  PerfOrgCity:
+    faker: word
+    dtype: object
+  PerfOrgState:
+    faker: word
+    dtype: object
+  PerfOrgZip:
+    faker: word
+    dtype: object
+  PerfOrgCountry:
+    faker: word
+    dtype: object
+  PerfOrgCountyCode:
+    faker: word
+    dtype: object
+  PerfOrgIdentifier:
+    faker: word
+    dtype: object
+  PerfOrgIdentifierNameSpace:
+    faker: word
+    dtype: object
+  PerfOrgIdentifierTypeCode:
+    faker: word
+    dtype: object
+  PerfOrgMedDirName:
+    faker: word
+    dtype: object
+  PerfOrgMedDirID:
+    faker: word
+    dtype: object
+  PlacerOrderNamespace:
+    faker: word
+    dtype: object
+  FillerOrderNamespace:
+    faker: word
+    dtype: object
+  PlacerGroupNumber:
+    faker: word
+    dtype: object
+  PlacerGroupNamespace:
+    faker: word
+    dtype: object
+  ResultsReportStatusChangeDateTime:
+    faker: word
+    dtype: object
+  ResultsReportStatusChangeTimeZone:
+    faker: word
+    dtype: object
+  SubID:
+    faker: word
+    dtype: object
+  ParentServiceID:
+    faker: word
+    dtype: object
+  ParentFillerOrderID:
+    faker: word
+    dtype: object
+  ParentFillerOrderNamespace:
+    faker: word
+    dtype: object
+  ParentSubID:
+    faker: word
+    dtype: object
+  InterpretationNarrative:
+    faker: word
+    dtype: object
+  ehr_id:
+    faker: word
+    dtype: object
+  deployment_id:
+    faker: word
+    dtype: object
+  pull_id:
+    faker: word
+    dtype: object
+  extract_timestamp:
+    faker: word
+    dtype: object
+
+emrpatients:
+  PtID:
+    faker: random_int
+    dtype: int32
+  ClientSoftwarePtID:
+    faker: word
+    dtype: object
+  PatientChartNumber:
+    faker: word
+    dtype: object
+  PatientNameFirst:
+    faker: word
+    dtype: object
+  PatientNameLast:
+    faker: word
+    dtype: object
+  PatientNameMiddle:
+    faker: word
+    dtype: object
+  PatientDOB:
+    faker: word
+    dtype: object
+  PatientSex:
+    faker: word
+    dtype: object
+  PatientSSN:
+    faker: word
+    dtype: object
+  PatientGuardianNameFirst:
+    faker: word
+    dtype: object
+  PatientGuardianNameLast:
+    faker: word
+    dtype: object
+  PatientGuardianNameMiddle:
+    faker: word
+    dtype: object
+  PatientGuardianDOB:
+    faker: word
+    dtype: object
+  PatientCreated:
+    faker: word
+    dtype: object
+  PatientEmpCreated:
+    faker: random_int
+    dtype: int32
+  PatientLastEdited:
+    faker: word
+    dtype: object
+  PatientEmpLastEdited:
+    faker: random_int
+    dtype: int32
+  PatientAlert:
+    faker: word
+    dtype: object
+  upsize_ts:
+    faker: word
+    dtype: object
+  PatientAddress:
+    faker: word
+    dtype: object
+  PatientAddress2:
+    faker: word
+    dtype: object
+  PatientCity:
+    faker: word
+    dtype: object
+  PatientState:
+    faker: word
+    dtype: object
+  PatientZip:
+    faker: word
+    dtype: object
+  PatientInsPri:
+    faker: word
+    dtype: object
+  PatientInsPriID:
+    faker: word
+    dtype: object
+  PatientInsSec:
+    faker: word
+    dtype: object
+  PatientInsSecID:
+    faker: word
+    dtype: object
+  PatientHomePhone:
+    faker: word
+    dtype: object
+  PatientMobilePhone:
+    faker: word
+    dtype: object
+  PatientWorkPhone:
+    faker: word
+    dtype: object
+  PMImportCheckInNote:
+    faker: word
+    dtype: object
+  PatientFaxPhone:
+    faker: word
+    dtype: object
+  PatientDefaultRefProviderID:
+    faker: random_int
+    dtype: int32
+  PatientDefaultPriProviderID:
+    faker: random_int
+    dtype: int32
+  PatientNote:
+    faker: word
+    dtype: object
+  PatientDefaultEyeCareProviderID:
+    faker: random_int
+    dtype: int32
+  PatientEMail:
+    faker: word
+    dtype: object
+  ERxSystemAccessed:
+    faker: random_int
+    dtype: int32
+  PatientPreferredLanguage:
+    faker: word
+    dtype: object
+  PatientRace:
+    faker: word
+    dtype: object
+  PatientEthnicity:
+    faker: word
+    dtype: object
+  PatientPreferredContactMethod:
+    faker: word
+    dtype: object
+  PtDeceased:
+    faker: random_int
+    dtype: int32
+  PtDeceasedDate:
+    faker: word
+    dtype: object
+  CopyFromDefaultPatient:
+    faker: random_int
+    dtype: int32
+  InsertGUID:
+    faker: word
+    dtype: object
+  PatientChartFilters:
+    faker: word
+    dtype: object
+  PatientMaritalStatus:
+    faker: word
+    dtype: object
+  WebportalOptOut:
+    faker: random_int
+    dtype: int32
+  ClientSoftwarePtIDAssignAuth:
+    faker: word
+    dtype: object
+  ClientSoftwarePtIDAssignAuthIDType:
+    faker: word
+    dtype: object
+  GenderIdentityID:
+    faker: random_int
+    dtype: int32
+  GenderIdentityOtherDescription:
+    faker: word
+    dtype: object
+  GenderIdentityConceptCode:
+    faker: word
+    dtype: object
+  SexualOrientationID:
+    faker: random_int
+    dtype: int32
+  SexualOrientationOtherDescription:
+    faker: word
+    dtype: object
+  SexualOrientationConceptCode:
+    faker: word
+    dtype: object
+  PatientNameSuffix:
+    faker: word
+    dtype: object
+  PatientPreviousAddress:
+    faker: word
+    dtype: object
+  PatientPreviousAddress2:
+    faker: word
+    dtype: object
+  PatientPreviousCity:
+    faker: word
+    dtype: object
+  PatientPreviousState:
+    faker: word
+    dtype: object
+  PatientPreviousZip:
+    faker: word
+    dtype: object
+  PatientDefaultRefProviderLastUpdated:
+    faker: word
+    dtype: object
+  ehr_id:
+    faker: word
+    dtype: object
+  deployment_id:
+    faker: word
+    dtype: object
+  pull_id:
+    faker: word
+    dtype: object
+  extract_timestamp:
+    faker: word
+    dtype: object
+
+emrptnotes:
+  PtNotesID:
+    faker: random_int
+    dtype: int32
+  PtID:
+    faker: random_int
+    dtype: int32
+  EmpID:
+    faker: random_int
+    dtype: int32
+  Notes:
+    faker: word
+    dtype: object
+  CreatedDate:
+    faker: word
+    dtype: object
+  ShowInVisitSummary:
+    faker: random_int
+    dtype: int32
+  InsertGUID:
+    faker: word
+    dtype: object
+  ehr_id:
+    faker: word
+    dtype: object
+  deployment_id:
+    faker: word
+    dtype: object
+  pull_id:
+    faker: word
+    dtype: object
+  extract_timestamp:
+    faker: word
+    dtype: object
+
+emrvisit:
+  VisitID:
+    faker: random_int
+    dtype: int32
+  PtID:
+    faker: random_int
+    dtype: int32
+  ClientSoftwarePtID:
+    faker: random_int
+    dtype: int32
+  ClientSoftwareApptID:
+    faker: random_int
+    dtype: int32
+  LocationID:
+    faker: random_int
+    dtype: int32
+  ProviderEmpID:
+    faker: random_int
+    dtype: int32
+  ExamType:
+    faker: random_int
+    dtype: int32
+  DOSDate:
+    faker: word
+    dtype: object
+  VisitTech:
+    faker: random_int
+    dtype: int32
+  VisitDoctor:
+    faker: random_int
+    dtype: int32
+  VisitRefProviderID:
+    faker: random_int
+    dtype: int32
+  VisitPriCareProviderID:
+    faker: random_int
+    dtype: int32
+  TabPOHPMH:
+    faker: random_int
+    dtype: int32
+  TabROS:
+    faker: random_int
+    dtype: int32
+  TabCCHPI:
+    faker: random_int
+    dtype: int32
+  TabWorkup:
+    faker: random_int
+    dtype: int32
+  TabWorkUp2:
+    faker: random_int
+    dtype: int32
+  TabMBalance:
+    faker: random_int
+    dtype: int32
+  TabGonio:
+    faker: random_int
+    dtype: int32
+  TabSLE:
+    faker: random_int
+    dtype: int32
+  TabDFE:
+    faker: random_int
+    dtype: int32
+  TabLensRx:
+    faker: random_int
+    dtype: int32
+  TabDiag:
+    faker: random_int
+    dtype: int32
+  TabPlan:
+    faker: random_int
+    dtype: int32
+  TabCoding:
+    faker: random_int
+    dtype: int32
+  VisitType:
+    faker: word
+    dtype: object
+  VisitTypeID:
+    faker: random_int
+    dtype: int32
+  VisitClassID:
+    faker: random_int
+    dtype: int32
+  LinkedProcedureVisitID:
+    faker: random_int
+    dtype: int32
+  LocationSpecific:
+    faker: word
+    dtype: object
+  MDSignedOff:
+    faker: random_int
+    dtype: int32
+  MDSignedOffDate:
+    faker: word
+    dtype: object
+  MDSignedOffEmpID:
+    faker: random_int
+    dtype: int32
+  CodeID:
+    faker: random_int
+    dtype: int32
+  ProcVisitTypeID:
+    faker: random_int
+    dtype: int32
+  WU2VisitTypeID:
+    faker: random_int
+    dtype: int32
+  TabVitals:
+    faker: random_int
+    dtype: int32
+  VisitEyeCareProviderID:
+    faker: random_int
+    dtype: int32
+  TechIsDirty:
+    faker: random_int
+    dtype: int32
+  TechDirtyInfo:
+    faker: word
+    dtype: object
+  TechWU2IsDirty:
+    faker: random_int
+    dtype: int32
+  TechWU2DirtyInfo:
+    faker: word
+    dtype: object
+  TechROSIsDirty:
+    faker: random_int
+    dtype: int32
+  TechROSDirtyInfo:
+    faker: word
+    dtype: object
+  DiagTestIsDirty:
+    faker: random_int
+    dtype: int32
+  DiagTestDirtyInfo:
+    faker: word
+    dtype: object
+  DoctorIsDirty:
+    faker: random_int
+    dtype: int32
+  DoctorDirtyInfo:
+    faker: word
+    dtype: object
+  ProvidedPtEducation:
+    faker: random_int
+    dtype: int32
+  TabImmunizations:
+    faker: random_int
+    dtype: int32
+  InsertGUID:
+    faker: word
+    dtype: object
+  ProcIsDirty:
+    faker: random_int
+    dtype: int32
+  ProcDirtyInfo:
+    faker: word
+    dtype: object
+  ExcludeVisit:
+    faker: random_int
+    dtype: int32
+  CLRefNoteRemember:
+    faker: word
+    dtype: object
+  ServiceType:
+    faker: random_int
+    dtype: int32
+  InitialSignedOffRole:
+    faker: word
+    dtype: object
+  InitialSignedOff:
+    faker: random_int
+    dtype: int32
+  InitialSignedOffDate:
+    faker: word
+    dtype: object
+  InitialSignedOffEmpID:
+    faker: random_int
+    dtype: int32
+  TabExam:
+    faker: random_int
+    dtype: int32
+  TabDrawing:
+    faker: random_int
+    dtype: int32
+  ReconciledCCDA:
+    faker: boolean
+    dtype: boolean
+  ehr_id:
+    faker: word
+    dtype: object
+  deployment_id:
+    faker: word
+    dtype: object
+  pull_id:
+    faker: word
+    dtype: object
+  extract_timestamp:
+    faker: word
+    dtype: object
+
+emrvisitsrxmedications:
+
+  VisitMedicationID:
+    faker: random_int
+    dtype: int32
+  VisitID:
+    faker: random_int
+    dtype: int32
+  PtID:
+    faker: random_int
+    dtype: int32
+  DOSDate:
+    faker: word
+    dtype: object
+  MedName:
+    faker: word
+    dtype: object
+  MedSig:
+    faker: word
+    dtype: object
+  MedDisp:
+    faker: word
+    dtype: object
+  MedRefill:
+    faker: word
+    dtype: object
+  MedType:
+    faker: random_int
+    dtype: int32
+  BrandMedOnly:
+    faker: random_int
+    dtype: int32
+  DoNotPrintRx:
+    faker: random_int
+    dtype: int32
+  SampleGiven:
+    faker: random_int
+    dtype: int32
+  Notes:
+    faker: word
+    dtype: object
+  Description:
+    faker: word
+    dtype: object
+  MedTableID:
+    faker: random_int
+    dtype: int32
+  MedDispType:
+    faker: random_int
+    dtype: int32
+  DrugStrength:
+    faker: word
+    dtype: object
+  DrugRoute:
+    faker: word
+    dtype: object
+  DrugForm:
+    faker: word
+    dtype: object
+  DrugMappingID:
+    faker: word
+    dtype: object
+  DrugAltMappingID:
+    faker: word
+    dtype: object
+  DrugName:
+    faker: word
+    dtype: object
+  DrugNameID:
+    faker: word
+    dtype: object
+  ERxGUID:
+    faker: word
+    dtype: object
+  ERxPendingTransmit:
+    faker: random_int
+    dtype: int32
+  CalledInLocationID:
+    faker: random_int
+    dtype: int32
+  CalledInProviderEmpID:
+    faker: random_int
+    dtype: int32
+  MedDispUnitType:
+    faker: word
+    dtype: object
+  RXCUI:
+    faker: word
+    dtype: object
+  IsRefill:
+    faker: random_int
+    dtype: int32
+  OriginalMedicationID:
+    faker: word
+    dtype: object
+  OriginalMedicationDate:
+    faker: word
+    dtype: object
+  SentViaERx:
+    faker: random_int
+    dtype: int32
+  SNOMED:
+    faker: word
+    dtype: object
+  DrugFDAStatus:
+    faker: word
+    dtype: object
+  DrugDEAClass:
+    faker: word
+    dtype: object
+  RxRemarks:
+    faker: word
+    dtype: object
+  InsertGUID:
+    faker: word
+    dtype: object
+  RecordedEmpRole:
+    faker: random_int
+    dtype: int32
+  AdministeredMed:
+    faker: random_int
+    dtype: int32
+  FormularyChecked:
+    faker: random_int
+    dtype: int32
+  PrintedRx:
+    faker: random_int
+    dtype: int32
+  DoNotReconcile:
+    faker: boolean
+    dtype: boolean
+  RxStartDate:
+    faker: word
+    dtype: object
+  RxEndDate:
+    faker: word
+    dtype: object
+  RxDurationDays:
+    faker: random_int
+    dtype: int32
+  LastModified:
+    faker: word
+    dtype: object
+  VisitDiagCodePoolID:
+    faker: random_int
+    dtype: int32
+  Created:
+    faker: word
+    dtype: object
+  CreatedEmpID:
+    faker: random_int
+    dtype: int32
+  LastModifiedEmpID:
+    faker: random_int
+    dtype: int32
+  ehr_id:
+    faker: word
+    dtype: object
+  deployment_id:
+    faker: word
+    dtype: object
+  pull_id:
+    faker: word
+    dtype: object
+  extract_timestamp:
+    faker: word
+    dtype: object
